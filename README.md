@@ -11,8 +11,6 @@ The planner is built assuming a 9-5 workday, and will dynamically be styled base
 ## Viewing and using the website
 
 Github Pages link: (https://anzook.github.io/The-ANZ-Day-Planner/)
-![Mainpage Screenshot Demo](https://github.com/anzook/ANZ-Code-Quiz/blob/master/assets/Images/CodeQuizSS.png)
-
 
 All website assets are contained within the repo (https://github.com/anzook/The-ANZ-Day-Planner)
 
