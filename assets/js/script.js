@@ -78,7 +78,7 @@ if (toDos != null) {
 for (var i = 9; i < 18; i++) {
     var tempId = "#hour" + i;
     let j = i - 9;
-$(tempId).val("");
+    $(tempId).val("");
     $(tempId).val(toDos[j]);
 }
 }
@@ -105,7 +105,9 @@ function setFields() {
 
 $("#set-date-btn").on("click", function() {
     event.preventDefault();
-getFields();
+    $("#main").clear();
+    createFields();
+    getFields();
 });
 
 $("#current-date-btn").on("click", function() {
