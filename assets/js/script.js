@@ -78,6 +78,7 @@ if (toDos != null) {
 for (var i = 9; i < 18; i++) {
     var tempId = "#hour" + i;
     let j = i - 9;
+$(tempId).val("");
     $(tempId).val(toDos[j]);
 }
 }
