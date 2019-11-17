@@ -3,6 +3,10 @@ body {
     font-size: 16px;
     line-height: 1;
   }
+
+  .container {
+    background-color: lightblue;
+  }
   
   textarea{
     background: transparent;
@@ -15,7 +19,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: lightblue;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -62,6 +66,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding: 10px 15px;
     background-color: #06AED5;
     color: white;
   }
