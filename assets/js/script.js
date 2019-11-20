@@ -35,7 +35,13 @@ return classSet;  //returns class string
 
 
 setInterval(function () {   //initializes timer
-    createFields();  //updated fields on the hour
+    $('.past').removeClass('past');  //remove styles
+    $('.present').removeClass('present');
+    $('.future').removeClass('future');
+    for (var i = 9; i < 18; i++) {  //updated fields on the hour
+        var tempId = "#hour" + i;
+        $(tempId).addClass(setClass(i));
+    }
 
 }, timerSet());
 
